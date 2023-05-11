@@ -1,16 +1,95 @@
 header {
-  background-color: rgb(77, 77, 77);
-  color: rgb(190, 187, 187);
-  margin-bottom: 2rem;
-  font-size: large;
-  font-weight: 400;
-  display:flex;
-  justify-content: center;
-  justify-content: space-around;
+  background-color: rgb(48, 48, 48);
+  height: 100px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
 } 
 
+nav {
+  width: 960px;
+  margin: auto;
+}
+
+nav img {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  margin-top: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+main {
+  width: 960px;
+  margin: auto;
+}
+
+main ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  height: 150px;
+  background-color: #444;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+section article p {
+  height: 300px;
+  overflow: auto;
+  margin-bottom: 20px;
+  border: ridge 10px;
+}
+
+button:hover {
+  background-color: green;
+}
+
+button{
+  transition: 350ms;
+  padding: 14px 40px;
+}
+
+
+section img{
+margin-right: 20px;
+margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .hero div {
-  
+
   margin-left: 6rem;
   margin-right: 6rem;
   margin: 0 auto;
